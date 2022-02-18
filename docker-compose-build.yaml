@@ -1,0 +1,6 @@
+version: '2'
+services:
+  proxysql-exporter:
+    build:
+      context: ./
+    image: 'shalb/proxysql-exporter:0.0.1'
